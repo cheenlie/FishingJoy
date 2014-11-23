@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @3 @23 Member=applicationWillEnterForeground)" Category="CodeSchema_Method" Bounds="1291.27748895043,83.9388946341372,219.052830826667,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="applicationWillEnterForeground" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 @37 Member=(Name=setSoundAndMusicVolume OverloadingParameters=[(Type=float),(Type=float)]))" Category="CodeSchema_Method" Bounds="1768.60866323583,183.53162066836,191.633333333333,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="setSoundAndMusicVolume" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_15186)" Category="CodeSchema_Enum" Bounds="290.22126255647,54.9951504603175,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_15186" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_15369)" Category="CodeSchema_Enum" Bounds="255.580815511034,-23.4791072487291,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_15369" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16097)" Category="CodeSchema_Enum" Bounds="46.6819924769968,-20.9278853352864,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16097" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16282)" Category="CodeSchema_Enum" Bounds="82.2676041221372,95.4922806803386,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16282" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16467)" Category="CodeSchema_Enum" Bounds="211.447149454753,-79.3158739151406,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16467" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16832)" Category="CodeSchema_Enum" Bounds="73.5063126182309,153.925721842448,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16832" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="(@1 @3 Type=&lt;unnamed-tag&gt;_17016)" Category="CodeSchema_Enum" Bounds="56.9261686197917,34.9089033129075,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_17016" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Enum" Bounds="2010.7895719401,110.087401754239,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16095" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@11" Category="CodeSchema_Enum" Bounds="680.89934366862,493.493821508094,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16096" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Enum" Bounds="780.808645426432,-103.585534632297,173.876666666667,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16098" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@13" Category="CodeSchema_Enum" Bounds="2158.46672221384,279.988494178983,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16280" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@14" Category="CodeSchema_Enum" Bounds="620.193717668415,261.459629149882,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16281" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Enum" Bounds="773.174856363932,-159.323417619306,173.876666666667,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16283" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Enum" Bounds="1895.72069520748,339.407337286088,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16465" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@17" Category="CodeSchema_Enum" Bounds="609.666282365681,365.390598388163,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16466" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@18" Category="CodeSchema_Enum" Bounds="780.010000406901,-47.7487655282929,173.876666666667,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16468" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@19" Category="CodeSchema_Enum" Bounds="788.83147257487,554.159119970008,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_16831" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="6.68199747721428,-286.964341964538,2405.83421671549,906.960328601213" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="FishingJoy_FirstIteration.exe" />
+    <Node Id="@20" Category="CodeSchema_Enum" Bounds="2138.06178873698,165.924168420905,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_17014" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@21" Category="CodeSchema_Enum" Bounds="842.443258463542,133.496919042274,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_17015" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@22" Category="CodeSchema_Enum" Bounds="765.581106363932,8.08800113837382,173.876666666667,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_17017" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@24" Category="CodeSchema_Class" Bounds="1303.88516224216,-93.4014109068635,136.313333333334,25" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="6" Group="Collapsed" Label="AppDelegate" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@25" Category="CodeSchema_Class" Bounds="1712.21960802063,284.407237286088,160.6,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="BackgroundLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@26" Category="CodeSchema_Class" Bounds="1688.53728481366,471.315407820027,93.5900000000001,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Bullet" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@27" Category="CodeSchema_Class" Bounds="1165.89931803261,538.213564619312,105.47,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Cannon" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@28" Category="CodeSchema_Class" Bounds="1266.07913699708,249.515535736001,136.003333333334,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="CannonLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@29" Category="CodeSchema_TypeDef" Bounds="872.411351131957,301.51053084259,113.173333333333,26" DelayedCrossGroupLinksState="Fetched" Label="CannonType" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@30" Category="CodeSchema_Class" Bounds="1788.81740936783,157.333085119407,83.5100000000002,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Fish" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@31" Category="CodeSchema_Class" Bounds="1222.74986854439,94.9062988776908,147.383333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="FishingJoyData" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@32" Category="CodeSchema_Class" Bounds="1494.01525703878,345.168781770465,122.809999999999,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="FishingNet" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@33" Category="CodeSchema_Class" Bounds="1757.79274106277,-4.06630554998299,114.043333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="FishLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@34" Category="CodeSchema_TypeDef" Bounds="2005.39260580532,247.143870217637,91.1476421012483,25.997688" DelayedCrossGroupLinksState="Fetched" Label="FishType" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@36" Category="CodeSchema_Class" Bounds="1443.72481051183,40.554346307059,128.566666666667,25" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="13" Group="Collapsed" Label="GameScene" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@38" Category="CodeSchema_Class" Bounds="1469.01184326847,-165.439404522453,124.853333333333,25" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="13" Group="Collapsed" Label="MenuLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@39" Category="CodeSchema_TypeDef" Bounds="607.317556478382,-57.174912076537,111.626666666667,26" DelayedCrossGroupLinksState="Fetched" Label="OperateFlag" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="26.6819974772143,-246.964241964538,2365.83421671549,846.960128601213" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="42" Group="Expanded" Label="‎::" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
+    <Node Id="@41" Category="CodeSchema_Class" Bounds="1593.8260197077,-75.8867860974974,122.906666666667,25" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="6" Group="Collapsed" Label="PanelLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@42" Category="CodeSchema_Class" Bounds="1546.18565062893,197.363498433851,119.586666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="StaticData" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@43" Category="CodeSchema_Class" Bounds="1145.02163401983,320.504937589526,109.34,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Weapon" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@45" Category="CodeSchema_Method" Bounds="1877.91366323583,127.694954001693,97.7833333333333,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="mainMenu" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@46" Category="CodeSchema_Method" Bounds="2108.10532990249,127.694954001693,69.3999999999996,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="music" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@47" Category="CodeSchema_Method" Bounds="1462.07827725555,346.916429690426,70.0533333333333,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="pause" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@48" Category="CodeSchema_Method" Bounds="2207.69199656916,127.694954001693,64.2266666666674,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="reset" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@49" Category="CodeSchema_Method" Bounds="1768.60866323583,127.694954001693,78.3933333333334,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="resume" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Method" Bounds="1294.11969942203,-206.964135551289,97.133770101248,25.8347322933333" DelayedCrossGroupLinksState="Fetched" Label="wWinMain" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@50" Category="CodeSchema_Method" Bounds="2005.98199656916,127.694954001693,71.6466666666665,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="sound" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@52" Category="CodeSchema_Method" Bounds="1291.27748895043,-139.406808192529,188.72490112,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="`scalar deleting destructor'" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@53" Category="CodeSchema_Method" Bounds="1479.07829100818,-67.3789999685013,188.72267008,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="`scalar deleting destructor'" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@54" Category="CodeSchema_Method" Bounds="2255.43532990249,16.0216206683601,188.74,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="`scalar deleting destructor'" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@55" Category="CodeSchema_Method" Bounds="1683.73494392221,291.07976302376,188.74,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="`scalar deleting destructor'" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@56" Category="CodeSchema_Method" Bounds="1262.82294263714,100.082748154668,218.417448853334,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="operateAllSchedulerAndActions" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@57" Category="CodeSchema_Method" Bounds="1325.53095444377,-83.5703824858627,120.217970133333,25.8364257066666" DelayedCrossGroupLinksState="Fetched" Label="~AppDelegate" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@58" Category="CodeSchema_Method" Bounds="1517.20397431485,-11.5584147176468,112.471303466667,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="~GameScene" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@59" Category="CodeSchema_Method" Bounds="2295.42866323583,71.8582873350267,108.753333333334,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="~MenuLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Enum" Bounds="632.828298746745,430.732886148394,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_15003" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@60" Category="CodeSchema_Method" Bounds="1724.70161058888,346.916429690426,106.806666666666,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="~PanelLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@61" Category="CodeSchema_Method" Bounds="1510.00239007043,-139.406808192529,111.320533333334,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="AppDelegate" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@62" Category="CodeSchema_Method" Bounds="1291.27748895043,28.1024689274706,218.589630933334,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="applicationDidEnterBackground" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@63" Category="CodeSchema_Method" Bounds="1291.27748895043,-27.7339567791961,212.014858346667,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="applicationDidFinishLaunching" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@64" Category="CodeSchema_Method" Bounds="1360.79467972042,-123.300659438106,71.3398194133333,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="create" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@65" Category="CodeSchema_Method" Bounds="2139.14366323583,-39.8150459983065,71.3233333333337,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="create" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@66" Category="CodeSchema_Method" Bounds="1568.44327725555,235.243096357093,71.3233333333333,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="create" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@67" Category="CodeSchema_Method" Bounds="2124.61032990249,71.8582873350267,140.389999999999,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="createBackground" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@68" Category="CodeSchema_Method" Bounds="1989.48366323583,71.8582873350267,104.643333333333,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="createMenu" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@69" Category="CodeSchema_Method" Bounds="1344.70371810547,-67.3789999685013,103.573866666667,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="GameScene" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@7" Category="CodeSchema_Enum" Bounds="669.63811319987,189.33368570894,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_15185" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@70" Category="CodeSchema_Method" Bounds="1260.38681019037,-67.3790056905472,54.2714031999999,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="init" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@71" Category="CodeSchema_Method" Bounds="2039.68032990249,16.0216206683601,54.25,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="init" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@72" Category="CodeSchema_Method" Bounds="1469.97994392221,291.07976302376,54.25,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="init" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@73" Category="CodeSchema_Method" Bounds="2124.87866323583,16.0216206683601,99.8533333333326,25.8366666666667" DelayedCrossGroupLinksState="Fetched" Label="MenuLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@74" Category="CodeSchema_Method" Bounds="1605.39522958334,44.2621705332077,69.4170400000003,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="music" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@75" Category="CodeSchema_Method" Bounds="1555.15161058888,291.07976302376,97.9066666666668,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="PanelLayer" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@76" Category="CodeSchema_Method" Bounds="1232.02782447714,44.2621705332077,70.0701851733329,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="pause" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@77" Category="CodeSchema_Method" Bounds="1218.33676900245,-11.5584147176468,138.370509013334,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="preloadResources" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@78" Category="CodeSchema_Method" Bounds="1511.19568986422,44.2621705332077,64.2451965866667,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="reset" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@79" Category="CodeSchema_Method" Bounds="1332.82875199964,44.2621705332077,78.4077832533335,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="resume" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Enum" Bounds="2099.59736187415,373.798159404297,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_15368" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@80" Category="CodeSchema_Method" Bounds="1511.19568168407,100.082755784062,71.6630596266668,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="sound" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@81" Category="CodeSchema_Method" Bounds="1218.33677448735,155.903335312871,141.402968746667,25.8364257066667" DelayedCrossGroupLinksState="Fetched" Label="transToMainMenu" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+    <Node Id="@9" Category="CodeSchema_Enum" Bounds="2198.63954752604,221.760945154304,173.876666666667,25.8366666666666" DelayedCrossGroupLinksState="Fetched" Label="‎&lt;unnamed-tag‎&gt;_15913" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@2" Target="@4" Category="Contains" FetchingParent="@2" />
+    <Link Source="@24" Target="(@1 @3 @23 Member=applicationWillEnterForeground)" Category="Contains" FetchingParent="@24" />
+    <Link Source="@24" Target="@52" Category="Contains" FetchingParent="@24" />
+    <Link Source="@24" Target="@57" Category="Contains" FetchingParent="@24" />
+    <Link Source="@24" Target="@61" Category="Contains" FetchingParent="@24" />
+    <Link Source="@24" Target="@62" Category="Contains" FetchingParent="@24" />
+    <Link Source="@24" Target="@63" Category="Contains" FetchingParent="@24" />
+    <Link Source="@25" Target="@42" Category="CodeSchema_Calls" Bounds="1640.92312159017,226.169160567522,124.808140347491,58.2380767185665" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@26" Target="@42" Category="CodeSchema_Calls" Bounds="1615.72391802675,230.501883973586,113.706176638774,240.813523846441" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@27" Target="@11" Category="References" Bounds="863.732862959297,515.836120199976,302.166455073309,29.6949860068348" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@27" Target="@14" Category="References" Bounds="738.96246633842,291.574126714039,456.534122467617,246.639437905273" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@27" Target="@17" Category="References" Bounds="744.266466119593,394.04965258136,436.518687598283,144.163912037952" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@27" Target="@19" Category="References" Bounds="971.697906328111,553.230447058983,194.201411704495,9.26864744246461" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@27" Target="@21" Category="References" Bounds="943.860947566784,166.661362148412,265.830140590495,371.5522024709" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@27" Target="@29" Category="References" Bounds="951.913565066753,333.198526031775,251.393033863196,205.015038587536" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="3" />
+    <Link Source="@27" Target="@42" Category="CodeSchema_Calls" Bounds="1232.83941524237,228.309019332784,352.177935323556,309.904545286528" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@27" Target="@6" Category="References" Bounds="788.760531368528,458.458048759322,378.576800548478,81.246633571814" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@27" Target="@7" Category="References" Bounds="772.070861816406,222.298355102539,425.567199707031,315.91520690918" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="4" />
+    <Link Source="@28" Target="@27" Category="CodeSchema_Calls" Bounds="1226.97460052115,274.515535736001,102.107620104214,255.341412056823" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="3" />
+    <Link Source="@28" Target="@29" Category="References" Bounds="994.510051222029,270.80597323873,271.73847804397,35.2148019440647" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@28" Target="@42" Category="CodeSchema_Calls" Bounds="1398.37054716664,222.721473241862,140.572513877263,26.9628247579114" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@28" Target="@43" Category="References" Bounds="1231.31318336092,274.515535736001,79.1040229673376,41.7857130119786" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@29" Target="@11" Category="References" Bounds="784.473924371674,327.51053084259,133.607068661363,159.099381918859" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@29" Target="@14" Category="References" Bounds="787.405101486583,288.898277304405,85.015398317454,15.3781417395053" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@29" Target="@17" Category="References" Bounds="752.340105383073,327.51053084259,129.303837929747,35.497471154053" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@29" Target="@19" Category="References" Bounds="880.348155821454,327.51053084259,45.9102151273408,217.850266611065" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@29" Target="@21" Category="References" Bounds="929.027683749895,168.341799417364,0.303890545946842,133.168731425226" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@29" Target="@6" Category="References" Bounds="748.353872197574,327.51053084259,159.58312633289,98.5033352808285" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@29" Target="@7" Category="References" Bounds="783.962066689495,220.088903503097,125.06735474466,81.4216273394936" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@30" Target="@10" Category="References" Bounds="1872.32740936783,137.477908652018,142.835049424496,25.0363074513837" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@30" Target="@13" Category="References" Bounds="1870.89086914063,180.840423583984,325.224609375,96.4259643554688" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@30" Target="@16" Category="References" Bounds="1840.9897243204,182.333085119407,125.141485251217,150.160436999599" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@30" Target="@20" Category="References" Bounds="1872.32740936783,170.786841913396,256.736726303408,5.86431318353237" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@30" Target="@34" Category="References" Bounds="1861.07774663327,182.333085119407,149.837998633781,61.3982716081606" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@30" Target="@42" Category="CodeSchema_Calls" Bounds="1673.64649446739,177.275288313585,115.170914900444,20.5274901388688" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@30" Target="@8" Category="References" Bounds="1851.08822992718,182.333085119407,306.559277108838,186.782242161611" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@30" Target="@9" Category="References" Bounds="1872.32740936783,175.783898665351,318.495405863161,45.391133409927" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@31" Target="@42" Category="CodeSchema_Calls" Bounds="1334.20577360671,119.906298877691,225.464862755601,74.6290910177406" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@32" Target="@42" Category="CodeSchema_Calls" Bounds="1559.69604523983,230.879084368282,39.0942831723071,114.289697402182" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@33" Target="@30" Category="References" Bounds="1816.03482758148,20.933694450017,12.4426179701047,127.441981844586" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@33" Target="@34" Category="References" Bounds="1826.54183988047,20.933694450017,206.071249819833,219.646602050069" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@34" Target="@10" Category="References" Bounds="2055.3988249831,144.442463973705,35.0195038451434,102.701392221608" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@34" Target="@13" Category="References" Bounds="2096.54025171469,267.822176589691,63.3260980499308,10.6708470764898" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@34" Target="@16" Category="References" Bounds="1997.58973780357,273.141544195312,43.7445746920216,59.0346684210558" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@34" Target="@20" Category="References" Bounds="2078.79215304638,195.570052299668,110.400459410105,51.5738038956447" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@34" Target="@8" Category="References" Bounds="2064.88908941987,273.141544195312,101.231710381818,94.5146494061626" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@34" Target="@9" Category="References" Bounds="2096.54025171469,245.086187415353,93.1518408064903,10.110183384991" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@36" Target="@53" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@56" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@58" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@64" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@69" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@70" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@74" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@76" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@77" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@78" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@79" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@80" Category="Contains" FetchingParent="@36" />
+    <Link Source="@36" Target="@81" Category="Contains" FetchingParent="@36" />
+    <Link Source="@38" Target="(@1 @3 @37 Member=(Name=setSoundAndMusicVolume OverloadingParameters=[(Type=float),(Type=float)]))" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@45" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@46" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@48" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@49" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@50" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@54" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@59" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@65" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@67" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@68" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@71" Category="Contains" FetchingParent="@38" />
+    <Link Source="@38" Target="@73" Category="Contains" FetchingParent="@38" />
+    <Link Source="@39" Target="@12" Category="References" Bounds="717.737156650632,-75.746841415263,84.3688076632691,19.1666462043838" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@39" Target="@15" Category="References" Bounds="688.157760173417,-129.428734210898,139.099003715753,72.253822711874" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@39" Target="@18" Category="References" Bounds="718.944223225911,-41.6137655316621,52.0752378108403,2.38961332988451" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@39" Target="@22" Category="References" Bounds="700.898502548735,-31.1749114990236,105.580608031734,36.341929179069" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_15186)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_15369)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_16097)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_16282)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_16467)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_16832)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @3 Type=&lt;unnamed-tag&gt;_17016)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@10" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@11" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@12" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@13" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@14" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@15" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@16" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@17" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@18" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@19" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@20" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@21" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@22" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@24" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@25" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@26" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@27" Category="Contains" />
+    <Link Source="@4" Target="@28" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@29" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@30" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@31" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@32" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@33" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@34" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@36" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@38" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@39" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@41" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@42" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@43" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@5" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@6" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@7" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@8" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@9" Category="Contains" FetchingParent="@4" />
+    <Link Source="@41" Target="@47" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@55" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@60" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@66" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@72" Category="Contains" FetchingParent="@41" />
+    <Link Source="@41" Target="@75" Category="Contains" FetchingParent="@41" />
+    <Link Source="@43" Target="@11" Category="References" Bounds="808.359806263764,345.504937589526,360.203256949419,144.643348383553" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@43" Target="@14" Category="References" Bounds="803.029174804688,283.585052490234,343.459716796875,38.3815307617188" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@43" Target="@17" Category="References" Bounds="792.506677353713,337.928080642316,352.514956666115,31.7446782497764" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@43" Target="@19" Category="References" Bounds="900.940889961016,345.504937589526,281.45319732682,203.390979142622" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@43" Target="@21" Category="References" Bounds="955.503895041602,164.454403672038,226.078352634057,156.050533917488" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@43" Target="@26" Category="References" Bounds="1244.08847281152,345.504937589526,439.154882053624,123.644749830645" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@43" Target="@27" Category="References" Bounds="1200.77925077342,345.504937589526,15.9873139357524,183.742502619964" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@43" Target="@29" Category="References" Bounds="994.563752013716,318.990131707076,150.457882006112,10.279626490451" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@43" Target="@32" Category="References" Bounds="1254.36163401983,336.795389844756,230.675177327279,15.9934744123961" IsSourceVirtualized="True" IsTargetVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@43" Target="@7" Category="References" Bounds="808.990887736046,217.725556425988,348.336194364311,102.779381163537" IsSourceVirtualized="True" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="2" />
+    <Link Source="@45" Target="@36" Category="References" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@45" Target="@81" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@46" Target="@36" Category="References" Bounds="1727.51188178781,66.3714860260971,380.637093494516,68.039151591938" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@46" Target="@74" Category="CodeSchema_Calls" Bounds="1707.52238410984,65.8313675030081,400.626591172486,68.8210328317966" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@47" Target="@36" Category="References" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@47" Target="@76" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@48" Target="@36" Category="References" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@48" Target="@78" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@49" Target="@36" Category="References" Bounds="1727.1305153097,111.861387003731,44.4535423521886,15.8343434638945" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@49" Target="@79" Category="CodeSchema_Calls" Bounds="1443.85662825044,67.921208904289,324.795680365221,64.8642018536865" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@5" Target="@57" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@5" Target="@61" Category="CodeSchema_Calls" Bounds="1470.91742143976,-209.407488192466,73.211881063447,64.0730933004169" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@50" Target="@36" Category="References" Bounds="1727.45958145946,74.4835802990249,278.566060489529,58.5945083781198" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@50" Target="@80" Category="CodeSchema_Calls" Bounds="1615.6846597173,116.696960544812,390.340982231694,21.905922550763" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@52" Target="@57" Category="CodeSchema_Calls" Bounds="1385.63989257813,-113.570381164551,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@53" Target="@58" Category="CodeSchema_Calls" Bounds="1573.4638671875,-41.6045455932617,0,21.0000019073486" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@54" Target="@59" Category="CodeSchema_Calls" Bounds="2349.80541992188,41.8582878112793,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@55" Target="@60" Category="CodeSchema_Calls" Bounds="1778.10498046875,316.916442871094,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@56" Target="@12" Category="References" Bounds="1377.92703256163,125.484043176699,208.869403019294,265.599233155424" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@56" Target="@15" Category="References" Bounds="1340.69604065494,125.484043176699,25.4881734818277,207.903827203561" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@56" Target="@18" Category="References" Bounds="1377.03726074433,125.484043176699,150.340487888842,209.52458745427" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@56" Target="@22" Category="References" Bounds="1152.81914161222,125.484043176699,202.512013118388,210.353041861479" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@56" Target="@56" Category="CodeSchema_Calls" Bounds="1219.27709960938,106.916427612305,43.5,11.8358612060547" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@62" Target="@31" Category="CodeSchema_Calls" Bounds="1402.2305374984,53.9386146342011,19.4997667219761,151.909969680771" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@63" Target="@64" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@64" Target="@53" Category="CodeSchema_Calls" Bounds="1431.8544921875,-99.1951599121094,92.07568359375,29.0463256835938" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@64" Target="@69" Category="CodeSchema_Calls" Bounds="1396.4638671875,-97.4412078857422,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@64" Target="@70" Category="CodeSchema_Calls" Bounds="1320.45104980469,-97.4412078857422,50.7945556640625,26.0202178955078" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@65" Target="@54" Category="CodeSchema_Calls" Bounds="2210.14282226563,-15.6217288970947,90.6005859375,28.9076280593872" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@65" Target="@71" Category="CodeSchema_Calls" Bounds="2099.62622070313,-13.9783792495728,50.1923828125,25.9497547149658" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@65" Target="@73" Category="CodeSchema_Calls" Bounds="2174.80541992188,-13.9783792495728,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@66" Target="@55" Category="CodeSchema_Calls" Bounds="1639.41345214844,259.491943359375,89.8653564453125,28.8378295898438" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@66" Target="@72" Category="CodeSchema_Calls" Bounds="1529.74633789063,261.079772949219,49.6031494140625,25.8847961425781" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@66" Target="@75" Category="CodeSchema_Calls" Bounds="1604.10498046875,261.079772949219,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@68" Target="@45" Category="CodeSchema_Calls" Bounds="1961.5078125,97.694953918457,53.691162109375,26.0690307617188" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@68" Target="@46" Category="CodeSchema_Calls" Bounds="2065.17260742188,97.694953918457,46.388916015625,25.6455764770508" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@68" Target="@48" Category="CodeSchema_Calls" Bounds="2087.61450195313,97.694953918457,111.415283203125,31.4195022583008" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@68" Target="@49" Category="CodeSchema_Calls" Bounds="1855.75622558594,97.0029830932617,134.810913085938,32.168342590332" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@68" Target="@50" Category="CodeSchema_Calls" Bounds="2041.80529785156,97.694953918457,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@70" Target="@25" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@70" Target="@28" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@70" Target="@33" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@70" Target="@65" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@70" Target="@66" Category="CodeSchema_Calls" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@70" Target="@77" Category="CodeSchema_Calls" Bounds="1287.4638671875,-41.6045455932617,0,21.0000019073486" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@71" Target="@67" Category="CodeSchema_Calls" Bounds="2093.41064453125,40.5458450317383,63.531494140625,27.7139129638672" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@71" Target="@68" Category="CodeSchema_Calls" Bounds="2051.26708984375,41.8582878112793,9.754150390625,21.7857551574707" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@72" Target="@42" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@72" Target="@47" Category="CodeSchema_Calls" Bounds="1497.10498046875,316.916442871094,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@76" Target="@56" Category="CodeSchema_Calls" Bounds="1291.29150390625,70.0687866210938,48.46826171875,25.7743377685547" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+    <Link Source="@77" Target="@42" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="4" />
+    <Link Source="@79" Target="@56" Category="CodeSchema_Calls" Bounds="1371.99877929688,70.0687866210938,0,21" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" Weight="1" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="程序集" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="程序集" />
+    <Category Id="CodeSchema_Calls" Label="调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用者" OutgoingActionLabel="调用" />
+    <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
+    <Category Id="CodeSchema_Enum" Label="枚举" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="枚举" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+    <Category Id="CodeSchema_Namespace" Label="命名空间" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="命名空间" />
+    <Category Id="CodeSchema_Type" Label="类型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类型" />
+    <Category Id="CodeSchema_TypeDef" Label="Typedef" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" IsProviderRoot="False" NavigationActionLabel="Typedef" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="File" Label="文件" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="文件" />
+    <Category Id="References" Label="引用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="引用者" OutgoingActionLabel="引用" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="延迟的子节点状态" Description="如果未指定延迟的子节点状态，则为 Unspecified。如果尚未将组包含的子节点提取到关系图中，则为 NotFetched。如果已提取组内的所有延迟的子节点，则为 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="延迟的跨组链接状态" Description="如果未指定延迟的跨组链接状态，则为 Unspecified。如果尚未将此节点上延迟的跨组链接提取到关系图中，则为 NotFetched。如果已提取所有延迟的跨组链接，则为 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="已虚拟化链接源" Description="如果为 true，则链接源端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="已虚拟化链接目标" Description="如果为 true，则链接目标端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="粗细" Description="粗细" DataType="System.Double" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="Member" Label="编号" ValueType="System.Object" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="Namespace" Label="命名空间" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(b8bf9e81-35fd-4582-ba1c-b85fa365babb.OutputPathUri)" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Id="Namespace=::" />
+    <Alias n="4" Id="(@1 @3)" />
+    <Alias n="5" Id="(@1 @3 Member=wWinMain)" />
+    <Alias n="6" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_15003)" />
+    <Alias n="7" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_15185)" />
+    <Alias n="8" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_15368)" />
+    <Alias n="9" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_15913)" />
+    <Alias n="10" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16095)" />
+    <Alias n="11" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16096)" />
+    <Alias n="12" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16098)" />
+    <Alias n="13" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16280)" />
+    <Alias n="14" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16281)" />
+    <Alias n="15" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16283)" />
+    <Alias n="16" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16465)" />
+    <Alias n="17" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16466)" />
+    <Alias n="18" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16468)" />
+    <Alias n="19" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_16831)" />
+    <Alias n="20" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_17014)" />
+    <Alias n="21" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_17015)" />
+    <Alias n="22" Id="(@1 @3 Type=&lt;unnamed-tag&gt;_17017)" />
+    <Alias n="23" Id="Type=AppDelegate" />
+    <Alias n="24" Id="(@1 @3 @23)" />
+    <Alias n="25" Id="(@1 @3 Type=BackgroundLayer)" />
+    <Alias n="26" Id="(@1 @3 Type=Bullet)" />
+    <Alias n="27" Id="(@1 @3 Type=Cannon)" />
+    <Alias n="28" Id="(@1 @3 Type=CannonLayer)" />
+    <Alias n="29" Id="(@1 @3 Type=CannonType)" />
+    <Alias n="30" Id="(@1 @3 Type=Fish)" />
+    <Alias n="31" Id="(@1 @3 Type=FishingJoyData)" />
+    <Alias n="32" Id="(@1 @3 Type=FishingNet)" />
+    <Alias n="33" Id="(@1 @3 Type=FishLayer)" />
+    <Alias n="34" Id="(@1 @3 Type=FishType)" />
+    <Alias n="35" Id="Type=GameScene" />
+    <Alias n="36" Id="(@1 @3 @35)" />
+    <Alias n="37" Id="Type=MenuLayer" />
+    <Alias n="38" Id="(@1 @3 @37)" />
+    <Alias n="39" Id="(@1 @3 Type=OperateFlag)" />
+    <Alias n="40" Id="Type=PanelLayer" />
+    <Alias n="41" Id="(@1 @3 @40)" />
+    <Alias n="42" Id="(@1 @3 Type=StaticData)" />
+    <Alias n="43" Id="(@1 @3 Type=Weapon)" />
+    <Alias n="44" Id="OverloadingParameters=[(Type=&quot;cocos2d::CCObject *&quot;)]" />
+    <Alias n="45" Id="(@1 @3 @37 Member=(Name=mainMenu @44))" />
+    <Alias n="46" Id="(@1 @3 @37 Member=(Name=music @44))" />
+    <Alias n="47" Id="(@1 @3 @40 Member=(Name=pause @44))" />
+    <Alias n="48" Id="(@1 @3 @37 Member=(Name=reset @44))" />
+    <Alias n="49" Id="(@1 @3 @37 Member=(Name=resume @44))" />
+    <Alias n="50" Id="(@1 @3 @37 Member=(Name=sound @44))" />
+    <Alias n="51" Id="Member=(Name=&quot;`scalar deleting destructor'&quot; OverloadingParameters=[(Type=&quot;unsigned int&quot;)])" />
+    <Alias n="52" Id="(@1 @3 @23 @51)" />
+    <Alias n="53" Id="(@1 @3 @35 @51)" />
+    <Alias n="54" Id="(@1 @3 @37 @51)" />
+    <Alias n="55" Id="(@1 @3 @40 @51)" />
+    <Alias n="56" Id="(@1 @3 @35 Member=(Name=operateAllSchedulerAndActions OverloadingParameters=[(Type=&quot;cocos2d::CCNode *&quot;),(Type=OperateFlag)]))" />
+    <Alias n="57" Id="(@1 @3 @23 Member=~AppDelegate)" />
+    <Alias n="58" Id="(@1 @3 @35 Member=~GameScene)" />
+    <Alias n="59" Id="(@1 @3 @37 Member=~MenuLayer)" />
+    <Alias n="60" Id="(@1 @3 @40 Member=~PanelLayer)" />
+    <Alias n="61" Id="(@1 @3 @23 Member=AppDelegate)" />
+    <Alias n="62" Id="(@1 @3 @23 Member=applicationDidEnterBackground)" />
+    <Alias n="63" Id="(@1 @3 @23 Member=applicationDidFinishLaunching)" />
+    <Alias n="64" Id="(@1 @3 @35 Member=create)" />
+    <Alias n="65" Id="(@1 @3 @37 Member=create)" />
+    <Alias n="66" Id="(@1 @3 @40 Member=create)" />
+    <Alias n="67" Id="(@1 @3 @37 Member=createBackground)" />
+    <Alias n="68" Id="(@1 @3 @37 Member=createMenu)" />
+    <Alias n="69" Id="(@1 @3 @35 Member=GameScene)" />
+    <Alias n="70" Id="(@1 @3 @35 Member=init)" />
+    <Alias n="71" Id="(@1 @3 @37 Member=init)" />
+    <Alias n="72" Id="(@1 @3 @40 Member=init)" />
+    <Alias n="73" Id="(@1 @3 @37 Member=MenuLayer)" />
+    <Alias n="74" Id="(@1 @3 @35 Member=music)" />
+    <Alias n="75" Id="(@1 @3 @40 Member=PanelLayer)" />
+    <Alias n="76" Id="(@1 @3 @35 Member=pause)" />
+    <Alias n="77" Id="(@1 @3 @35 Member=preloadResources)" />
+    <Alias n="78" Id="(@1 @3 @35 Member=reset)" />
+    <Alias n="79" Id="(@1 @3 @35 Member=resume)" />
+    <Alias n="80" Id="(@1 @3 @35 Member=sound)" />
+    <Alias n="81" Id="(@1 @3 @35 Member=transToMainMenu)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈节点" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈入口" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 参数" ValueLabel="具有类别">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="参数" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="局部变量" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="继承自" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="实现" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="调用" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函数指针" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段引用" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_FieldReference')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="b8bf9e81-35fd-4582-ba1c-b85fa365babb.OutputPathUri" Value="file:///E:/Windows项目/Debug.win32/FishingJoy_FirstIteration.exe" />
+  </Paths>
+</DirectedGraph>
