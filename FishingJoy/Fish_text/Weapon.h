@@ -7,7 +7,7 @@
 
 enum{
 	k_Weapon_Status_None = 0,
-	k_Weapon_Status_Bullet,
+	k_Weapon_Status_Bullet,  //weapon fight bullet
 	k_Weapon_Status_FishingNet
 };
 
@@ -21,6 +21,9 @@ public:
 	bool shootTo(cocos2d::CCPoint touchLocation);
 	void aimAt(cocos2d::CCPoint target);
 
+	cocos2d::CCPoint getCollisionPoint();
+	cocos2d::CCRect getCollisionArea();
+
 	void end();
 
 	int weaponStatus();
@@ -30,6 +33,10 @@ public:
 	CC_SYNTHESIZE_READONLY(FishingNet*,_fishingNet,FishingNet);
 	
 	int getCannonType();
+
+protected:
+	//通过ParticleDesigner加载的粒子效果
+	cocos2d::CCParticleSystemQuad* _particle;
 };
 
 #endif

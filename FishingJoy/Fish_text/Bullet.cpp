@@ -49,3 +49,9 @@ void Bullet::end()
 	//子弹达到指定距离后隐藏
 	this->setVisible(false);
 }
+
+CCPoint Bullet::getCollisionPoint()
+{
+	
+	return  this->getParent()->convertToWorldSpace(this->getPosition());
+}

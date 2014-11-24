@@ -60,3 +60,40 @@ int Weapon::weaponStatus()
 	return k_Weapon_Status_None;
 	
 }
+
+CCPoint Weapon::getCollisionPoint()
+{
+	//??question, difficult
+	CCAssert(this->weaponStatus() == k_Weapon_Status_Bullet, "Do Not Call It Before Shooting");
+
+	//had shootted
+	if (this->weaponStatus() == k_Weapon_Status_Bullet){
+		return _bullet->getCollisionPoint();
+	}
+	return CCPointZero;
+}
+
+
+
+int Weapon::getCannonType()
+{
+	return _cannon->getType();
+}
+void Weapon::end()
+{
+	CCPoint pos = _bullet->getPosition();
+	_bullet->end();
+	_particle->setPosition(pos); //通过particleDesinger加载粒子效果
+	_particle->resetSystem();
+
+	_fishingNet->showAt(pos);
+}
+
+CCRect Weapon::getCollisionArea()
+{
+	CCAssert(this->weaponStatus() == k_Weapon_Status_FishingNet, "Do Not Call It Before Collision");
+	if (this->weaponStatus() == k_Weapon_Status_FishingNet){
+		return _fishingNet->getCollisionArea();
+	}
+	return CCRectZero;
+}

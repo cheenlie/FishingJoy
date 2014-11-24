@@ -16,6 +16,7 @@ public:
 	//使子弹结束飞行
 	void end();
 
+	cocos2d::CCPoint getCollisionPoint();
 
 protected:
 	cocos2d::CCSprite* _bulletSprite;

@@ -23,7 +23,12 @@
 public:
 	CREATE_FUNC(FishingNet);
 	bool init();
+
+	//使FishingNet在屏幕上出现
+	void showAt(cocos2d::CCPoint pos);
 protected:
 	cocos2d::CCSprite *_fishingNetSprite;
+
+	cocos2d::CCAction* netAction();
 };
 #endif 

@@ -123,6 +123,77 @@ void GameScene::cannonShootTo(CCPoint target)
 	_cannonLayer->shootTo(target);
 }
 
+void GameScene::update(float delat) //why program alway call this function? ?question
+{
+	checkOutCollision();
+}
 
+void GameScene::checkOutCollision()
+{
+	Weapon* weapon = _cannonLayer->getWeapon();
+	if (weapon->weaponStatus() == k_Weapon_Status_Bullet){
+		bool flag = this->checkOutCollisionBetweenFishesAndBullet();// the status of collision
+		if (flag){
+			this->checkOutCollisionBetweenFishesAndFishingNet();
+		}
+	}
+}
 
+bool GameScene::checkOutCollisionBetweenFishesAndBullet()
+{
+	Weapon* weapon = _cannonLayer->getWeapon();// get weapon from cannonLayer, cannonLayer contain weapon
+	CCPoint bulletCollision = weapon->getCollisionPoint();
+
+	CCArray* fishes = _fishLayer->getFishes();  //get fishes from Arrary in the fishLayer
+	CCObject* iterator;  //create a iterator type variable[创建一个迭代器变量]
+	CCARRAY_FOREACH(fishes,iterator){   //check every fish
+		Fish* fish = (Fish*)iterator;
+		if (fish->isRunning()){   //judge whether fish is in screen.
+
+			CCRect fishCollisionArea = fish->getCollisionArea();
+
+			//judge whether collision is happen
+			bool isCollision = fishCollisionArea.containsPoint(bulletCollision);
+			if (isCollision){
+				weapon->end();
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+void GameScene::checkOutCollisionBetweenFishesAndFishingNet()  //show the fishingNet
+{
+	Weapon* wepon = _cannonLayer->getWeapon();
+	CCRect bulletCollision = wepon->getCollisionArea();
+	CCArray* fishes = _fishLayer->getFishes();
+	CCObject* iterator;
+	CCARRAY_FOREACH(fishes,iterator){
+		Fish* fish = (Fish*)iterator;
+		if (fish->isRunning()){  //wheather fish is on screen
+			CCRect fishCollisionArea = fish->getCollisionArea();
+			bool isCollision = fishCollisionArea.intersectsRect(bulletCollision);
+			if (isCollision){
+				this->fishWillBeCaught(fish);
+			}
+		}
+	}
+}
+
+void GameScene::fishWillBeCaught(Fish* fish)
+{
+	int weaponType = _cannonLayer->getWeapon()->getCannonType();  //get cannon's type
+	int fishType = fish->getType();
+
+	//??question, i don't know what's the function of percentage
+	float fish_percentage = STATIC_DATA_FLOAT(CCString::createWithFormat(STATIC_DATA_STRING("fish_percentage_format"),fishType)->getCString());
+	float weapon_percentage = STATIC_DATA_FLOAT(CCString::createWithFormat(STATIC_DATA_STRING("weapon_percentage_format"), weaponType)->getCString());
+	float percentage = fish_percentage*weapon_percentage;
+	if (CCRANDOM_0_1() < percentage)
+	{
+		fish->beCaught();
+	}
+
+}
 

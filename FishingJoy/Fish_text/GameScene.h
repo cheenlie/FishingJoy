@@ -45,6 +45,16 @@ protected:
 	MenuLayer* _menuLayer;
 	TouchLayer* _touchLayer;
 
+	//vt. 告发，控告 delate
+	void update(float delat);
+
+	//碰撞检测相关
+	void checkOutCollision();
+	bool checkOutCollisionBetweenFishesAndBullet();
+	void checkOutCollisionBetweenFishesAndFishingNet();
+
+	void fishWillBeCaught(Fish* fish);
+
 	//todo 预载入资源，实现StartScene后将其删除
 	void preloadResources();
 

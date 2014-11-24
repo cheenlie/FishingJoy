@@ -18,6 +18,11 @@ public:
 	CC_SYNTHESIZE_READONLY(cocos2d::CCSprite*, _fishSprite, FishSprite);
 	CC_SYNTHESIZE_READONLY(int, _type, Type);
 
+	//播放被捕捉的动画
+	void beCaught();
+
+	cocos2d::CCRect getCollisionArea();
+
 	//移动鱼到destination
 	void moveTo(cocos2d::CCPoint destination);
 
@@ -26,6 +31,7 @@ public:
 
 protected:
 	void moveEnd();
+	void beCaught_CallFunc();
 };
 
 #endif
