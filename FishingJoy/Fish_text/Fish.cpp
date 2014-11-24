@@ -7,6 +7,7 @@ USING_NS_CC;
 //搞不懂这个枚举是拿来干嘛的
 enum{
 	k_Action_Animate = 0,
+	k_Action_MoveTo
 };
 
 Fish* Fish::create(FishType type)
@@ -32,4 +33,30 @@ bool Fish::init(FishType type)
 	_fishSprite->runAction(CCRepeatForever::create(fishAnimate));//3
 
 	return true;
+}
+
+void Fish::moveTo(cocos2d::CCPoint destination)
+{
+	//细细理解,这个节点怎么传起始值？？question
+	CCPoint start = this->getParent()->convertToWorldSpace(this->getPosition());
+
+	float speed = ccpDistance(destination, start)/300;   //计算两个point间的距离
+	CCMoveTo* moveTo = CCMoveTo::create(speed,destination);  //移动类
+	CCCallFunc* callFunc = CCCallFunc::create(this, callfunc_selector(Fish::moveEnd));//创建回调函数
+
+	CCFiniteTimeAction* seq = CCSequence::create(moveTo, callFunc, NULL);//创建移动序列
+	seq->setTag(k_Action_MoveTo);//创建ACtion的活动标签
+	this->runAction(seq);  //沿着有限时间的运动轨迹运行。FiniteTimeActon
+
+}
+
+void Fish::moveEnd()
+{
+	this->getParent()->removeChild(this,false);
+}
+
+void Fish::reset()
+{
+	this->setRotation(0);
+	this->setVisible(true);
 }

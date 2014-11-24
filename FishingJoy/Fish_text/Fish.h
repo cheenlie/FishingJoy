@@ -17,6 +17,15 @@ public:
 	bool init(FishType type = k_Fish_Type_Red);
 	CC_SYNTHESIZE_READONLY(cocos2d::CCSprite*, _fishSprite, FishSprite);
 	CC_SYNTHESIZE_READONLY(int, _type, Type);
+
+	//移动鱼到destination
+	void moveTo(cocos2d::CCPoint destination);
+
+	//重设鱼的状态
+	void reset();
+
+protected:
+	void moveEnd();
 };
 
 #endif

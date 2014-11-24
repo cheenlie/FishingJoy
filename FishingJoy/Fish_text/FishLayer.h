@@ -2,6 +2,7 @@
 
 #define __FishingJoy__FishLayer__
 #include "cocos2d.h"
+#include "Fish.h"
 
 class FishLayer :public cocos2d::CCLayer
 {
@@ -12,6 +13,7 @@ public:
 	~FishLayer();
 protected:
 	void addFish(float dt);
+	void resetFish(Fish* fish);
 };
 
 #endif

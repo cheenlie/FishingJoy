@@ -12,7 +12,6 @@ bool Bullet::init()
 	this->addChild(_bulletSprite);
 	return true;
 
-	//return true;
 }
 
 void Bullet::flyTo(CCPoint targetInWorldSpace)
