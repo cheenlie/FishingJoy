@@ -26,6 +26,8 @@ public:
 
 	//使FishingNet在屏幕上出现
 	void showAt(cocos2d::CCPoint pos);
+	cocos2d::CCRect getCollisionArea();
+
 protected:
 	cocos2d::CCSprite *_fishingNetSprite;
 

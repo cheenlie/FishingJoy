@@ -23,6 +23,10 @@ bool Weapon::init(CannonType type)
 	_fishingNet->setVisible(false);
 	this->addChild(_fishingNet);
 
+	_particle = CCParticleSystemQuad::create(STATIC_DATA_STRING("star_particle"));
+	_particle->stopSystem();
+	this->addChild(_particle);
+
 	return true;
 }
 
@@ -73,8 +77,6 @@ CCPoint Weapon::getCollisionPoint()
 	return CCPointZero;
 }
 
-
-
 int Weapon::getCannonType()
 {
 	return _cannon->getType();
@@ -85,7 +87,6 @@ void Weapon::end()
 	_bullet->end();
 	_particle->setPosition(pos); //通过particleDesinger加载粒子效果
 	_particle->resetSystem();
-
 	_fishingNet->showAt(pos);
 }
 

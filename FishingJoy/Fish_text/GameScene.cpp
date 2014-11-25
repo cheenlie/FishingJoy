@@ -132,6 +132,9 @@ void GameScene::checkOutCollision()
 {
 	Weapon* weapon = _cannonLayer->getWeapon();
 	if (weapon->weaponStatus() == k_Weapon_Status_Bullet){
+
+		//1. whether bullet collision fish?
+		//2. yes -> open fishingNet,check whether fishingNet collision fish ? 
 		bool flag = this->checkOutCollisionBetweenFishesAndBullet();// the status of collision
 		if (flag){
 			this->checkOutCollisionBetweenFishesAndFishingNet();
