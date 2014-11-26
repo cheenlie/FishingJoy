@@ -30,6 +30,9 @@
     <ClCompile Include="StaticData.cpp" />
     <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="TouchLayer.cpp" />
+    <ClCompile Include="PersonalAudioEngine.cpp" />
+    <ClCompile Include="GoldCounterLayer.cpp" />
+    <ClCompile Include="Counter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\AppDelegate.h">
@@ -52,5 +55,8 @@
     <ClInclude Include="StaticData.h" />
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="TouchLayer.h" />
+    <ClInclude Include="PersonalAudioEngine.h" />
+    <ClInclude Include="GoldCounterLayer.h" />
+    <ClInclude Include="Counter.h" />
   </ItemGroup>
 </Project>

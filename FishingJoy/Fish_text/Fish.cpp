@@ -40,7 +40,7 @@ void Fish::moveTo(cocos2d::CCPoint destination)
 	//细细理解,这个节点怎么传起始值？？question
 	CCPoint start = this->getParent()->convertToWorldSpace(this->getPosition());
 
-	float speed = ccpDistance(destination, start)/300;   //计算两个point间的距离
+	float speed = ccpDistance(destination, start)/100;   //计算两个point间的距离
 	CCMoveTo* moveTo = CCMoveTo::create(speed,destination);  //移动类
 	CCCallFunc* callFunc = CCCallFunc::create(this, callfunc_selector(Fish::moveEnd));//创建回调函数
 

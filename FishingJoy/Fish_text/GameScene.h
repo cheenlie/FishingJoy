@@ -55,6 +55,9 @@ protected:
 
 	void fishWillBeCaught(Fish* fish);
 
+	//数据相关
+	void alterGold(int delta);
+
 	//todo 预载入资源，实现StartScene后将其删除
 	void preloadResources();
 

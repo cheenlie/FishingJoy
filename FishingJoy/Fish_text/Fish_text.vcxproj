@@ -35,6 +35,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Counter.cpp" />
     <ClCompile Include="Fish.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeader>
@@ -55,11 +56,13 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="GoldCounterLayer.cpp" />
     <ClCompile Include="MenuLayer.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="PanelLayer.cpp" />
+    <ClCompile Include="PersonalAudioEngine.cpp" />
     <ClCompile Include="StaticData.cpp" />
     <ClCompile Include="TouchLayer.cpp" />
     <ClCompile Include="Weapon.cpp" />
@@ -74,13 +77,16 @@
     <ClInclude Include="Cannon.h" />
     <ClInclude Include="CannonLayer.h" />
     <ClInclude Include="Classes\AppDelegate.h" />
+    <ClInclude Include="Counter.h" />
     <ClInclude Include="Fish.h" />
     <ClInclude Include="FishingJoyData.h" />
     <ClInclude Include="FishingNet.h" />
     <ClInclude Include="FishLayer.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GoldCounterLayer.h" />
     <ClInclude Include="MenuLayer.h" />
     <ClInclude Include="PanelLayer.h" />
+    <ClInclude Include="PersonalAudioEngine.h" />
     <ClInclude Include="StaticData.h" />
     <ClInclude Include="TouchLayer.h" />
     <ClInclude Include="Weapon.h" />

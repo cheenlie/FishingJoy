@@ -14,6 +14,10 @@ FishingJoyData* FishingJoyData::shareFishingJoyData()
 	return _shareFishingJoyData;
 
 }
+void FishingJoyData::alterGold(int delta)
+{
+	this->setGold(this->getGold()+delta);
+}
 
 FishingJoyData::FishingJoyData()
 {

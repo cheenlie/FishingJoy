@@ -1,6 +1,7 @@
 #include "GameScene.h"
 #include "StaticData.h"
 #include "FishingJoyData.h"
+#include "PersonalAudioEngine.h"
 
 #include "Fish.h"
 
@@ -53,8 +54,14 @@ bool GameScene::init()
 		_menuLayer = MenuLayer::create();
 		CC_SAFE_RETAIN(_menuLayer);
 
+		//add touchLayer
 		_touchLayer = TouchLayer::create();
 		this->addChild(_touchLayer);
+
+		//add panelLayer and set goal base plist file
+		_panelLayer->getGoldCounterLayer()->setNumber(FishingJoyData::shareFishingJoyData()->getGold());
+		//set sound and music data that from plist file
+		_menuLayer->setSoundAndMusicVolume(FishingJoyData::shareFishingJoyData()->getSoundVolume(),FishingJoyData::shareFishingJoyData()->getMusicVolume());
 
 		this->scheduleUpdate();//每一个frame都会调用这个方法
 
@@ -120,7 +127,19 @@ void GameScene::cannonAimAt(CCPoint target)
 
 void GameScene::cannonShootTo(CCPoint target)
 {
-	_cannonLayer->shootTo(target);
+	int type = _cannonLayer->getWeapon()->getCannon()->getType();
+	int cost = (type + 1) * 1;
+	int currentGold = FishingJoyData::shareFishingJoyData()->getGold();
+	if (currentGold >= cost && _cannonLayer->shootTo(target)){
+		PersonalAudioEngine::sharedEngine()->playEffect(STATIC_DATA_STRING("sound_shot"));
+		this->alterGold(-cost);
+	}
+	
+}
+void GameScene::alterGold(int delta)
+{
+	FishingJoyData::shareFishingJoyData()->alterGold(delta);
+	_panelLayer->getGoldCounterLayer()->setNumber(FishingJoyData::shareFishingJoyData()->getGold());
 }
 
 void GameScene::update(float delat) //why program alway call this function? ?question

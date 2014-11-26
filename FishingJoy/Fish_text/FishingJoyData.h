@@ -21,6 +21,13 @@ public:
 	void purge();
 
 	/**
+	*	@brief	 对Gold的操作
+	*
+	*	@param 	delta 	正负值均可
+	*/
+	void alterGold(int delta);
+
+	/**
 	*	@brief	 将数据从内存保存到外部文件中
 	*/
 	void flush();
