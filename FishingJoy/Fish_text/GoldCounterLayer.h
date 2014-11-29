@@ -5,10 +5,9 @@
 class GoldCounterLayer : public cocos2d::CCNode
 {
 public:
+	static GoldCounterLayer* create(int number=0);
 	void setNumber(int number,int ceiling=999999);
-
 	bool init(int number = 0);
-
 	CC_SYNTHESIZE_READONLY(int, _number, Number);
 
 protected:
