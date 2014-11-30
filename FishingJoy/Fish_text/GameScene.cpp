@@ -29,6 +29,7 @@ void GameScene::preloadResources()
 		CCAnimationCache::sharedAnimationCache()->addAnimation(fishAnimation, animationName->getCString());
 	}
 
+	PersonalAudioEngine::sharedEngine();  //backgroudMusic
 }
 
 bool GameScene::init()
@@ -67,14 +68,19 @@ bool GameScene::init()
 
 void GameScene::pause()
 {
+	PersonalAudioEngine::sharedEngine()->pauseBackgroundMusic();
+	PersonalAudioEngine::sharedEngine()->playEffect(STATIC_DATA_STRING("sound_button"));
 	this->operateAllSchedulerAndActions(this,k_Operate_Pause );
+	_touchLayer->setTouchEnabled(false);  //close touchlayer
 	this->addChild(_menuLayer);
 }
 
 void GameScene::resume()
 {
 	this->operateAllSchedulerAndActions(this,k_Operate_Resume);
+	PersonalAudioEngine::sharedEngine()->resumeBackgroundMusic();
 	this->removeChild(_menuLayer, false);
+	_touchLayer->setTouchEnabled(true);
 
 }
 
@@ -94,6 +100,7 @@ GameScene::~GameScene()
 {
 	CC_SAFE_RELEASE(_menuLayer);
 }
+
 //暂停主场景中的动作和计时器
 void GameScene::operateAllSchedulerAndActions(cocos2d::CCNode* node, OperateFlag flag)
 {
@@ -109,8 +116,17 @@ void GameScene::operateAllSchedulerAndActions(cocos2d::CCNode* node, OperateFlag
 			break;
 		default:
 			break;
-
 		}
+
+		CCArray* array = node->getChildren();
+		if (array != NULL && array->count() > 0){
+			CCObject* iterator;
+			CCARRAY_FOREACH(array,iterator){
+				CCNode* child = (CCNode*)iterator;
+				this->operateAllSchedulerAndActions(child, flag);
+			}
+		}
+
 	}
 }
 

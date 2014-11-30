@@ -7,6 +7,7 @@
 class PersonalAudioEngine : public CocosDenshion::SimpleAudioEngine
 {
 public:
+	void setBackgroundMusicVolume(float volume);
 
 protected:
 };
