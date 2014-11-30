@@ -11,7 +11,7 @@ GoldCounterLayer* GoldCounterLayer::create(int number)
 }
 bool GoldCounterLayer::init(int number)
 {
-	int fontSize = 16;
+	int fontSize = 26;
 	CCLabelTTF* goldLabel = CCLabelTTF::create("½ğ±Ò:","Thonburi", fontSize);
 	this->addChild(goldLabel);
 	CCSize goldLabelSize = goldLabel->getContentSize();
@@ -24,7 +24,7 @@ bool GoldCounterLayer::init(int number)
 			presenters->addObject(label);
 		}
 		Counter* counter = Counter::create(presenters);
-		counter->setPosition(CCPointMake(goldLabelSize.width*0.8,fontSize*0.75*i,0));
+		counter->setPosition(CCPointMake(goldLabelSize.width*0.8+fontSize*0.75*i,0));
 		this->addChild(counter, 0, i);
 	}
 	this->setNumber(number);
