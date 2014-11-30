@@ -8,8 +8,15 @@ class PersonalAudioEngine : public CocosDenshion::SimpleAudioEngine
 {
 public:
 	void setBackgroundMusicVolume(float volume);
+	void setEffectsVolume(float volume);
+
+	
+	static PersonalAudioEngine* sharedEngine();
+	bool init();
 
 protected:
+	PersonalAudioEngine();
+	~PersonalAudioEngine();
 };
 
 

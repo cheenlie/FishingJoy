@@ -52,6 +52,8 @@ bool FishingJoyData::init()
 		_soundVolume = CCUserDefault::sharedUserDefault()->getFloatForKey("sound");
 		_musicVolume = CCUserDefault::sharedUserDefault()->getFloatForKey("music");
 		_gold = CCUserDefault::sharedUserDefault()->getIntegerForKey("gold");
+
+		CCUserDefault::sharedUserDefault()->purgeSharedUserDefault();
 	}
 	return true;
 }
@@ -64,6 +66,7 @@ void FishingJoyData::reset()
 	this->setMusicVolume(1);
 	this->setSoundVolume(1);
 	this->flush();
+
 }
 
 void FishingJoyData::flush()

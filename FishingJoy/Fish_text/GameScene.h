@@ -61,6 +61,8 @@ protected:
 	//todo 预载入资源，实现StartScene后将其删除
 	void preloadResources();
 
+	 void onEnterTransitionDidFinish();
+
 	//暂停或恢复场景内运行的所有节点
 	void operateAllSchedulerAndActions(cocos2d::CCNode* node, OperateFlag flag);
 };

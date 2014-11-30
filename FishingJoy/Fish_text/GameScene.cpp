@@ -29,9 +29,15 @@ void GameScene::preloadResources()
 		CCAnimationCache::sharedAnimationCache()->addAnimation(fishAnimation, animationName->getCString());
 	}
 
-	PersonalAudioEngine::sharedEngine();  //backgroudMusic
+	//FishingJoyData::shareFishingJoyData(); //upload data
+	//PersonalAudioEngine::sharedEngine();  //backgroudMusic
 }
 
+void GameScene::onEnterTransitionDidFinish()
+{
+	CCScene::onEnterTransitionDidFinish();
+	PersonalAudioEngine::sharedEngine()->playBackgroundMusic(STATIC_DATA_STRING("bg_music"), true);
+}
 bool GameScene::init()
 {
 	preloadResources();
