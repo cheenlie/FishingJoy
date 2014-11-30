@@ -16,7 +16,7 @@ public:
 
 	CC_PROPERTY(int, _digit, Digit);
 protected:
-	void visit();
+	//void visit();
 	//存放0-9数字对应的节点
 	cocos2d::CCNode* _presenters;
 

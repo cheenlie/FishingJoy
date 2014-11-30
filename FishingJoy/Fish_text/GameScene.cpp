@@ -41,19 +41,14 @@ bool GameScene::init()
 		*/
 		_backgroundLayer = BackgroundLayer::create();
         this->addChild(_backgroundLayer);
-
 		_fishLayer = FishLayer::create();
 		this->addChild(_fishLayer);
-
 		_cannonLayer = CannonLayer::create();
 		this->addChild(_cannonLayer);
-
 		_panelLayer = PanelLayer::create();
 		this->addChild(_panelLayer);
-
 		_menuLayer = MenuLayer::create();
 		CC_SAFE_RETAIN(_menuLayer);
-
 		//add touchLayer
 		_touchLayer = TouchLayer::create();
 		this->addChild(_touchLayer);

@@ -11,7 +11,7 @@ public:
 	CC_SYNTHESIZE_READONLY(int, _number, Number);
 
 protected:
-	
+	//void getNumAtPos(int pos);
 };
 
 #endif

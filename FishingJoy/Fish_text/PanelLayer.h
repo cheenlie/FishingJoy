@@ -9,6 +9,8 @@ public:
 	bool init();
 
 	CC_SYNTHESIZE_READONLY(GoldCounterLayer*,_goldCounterLayer,GoldCounterLayer);
+
+	void setScheduleNumber(int number);
 protected:
 	void pause(cocos2d::CCObject* pSender);
 };

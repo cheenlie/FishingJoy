@@ -60,13 +60,13 @@ void Counter::animation(int digit)
 
 }
 
-void Counter::visit()
-{
-	glEnable(GL_SCISSOR_TEST);
-	CCNode* presenter = _presenters->getChildByTag(_digit);
-	CCSize size = presenter->getContentSize();
-	CCPoint location = this->getParent()->convertToWorldSpace(CCPointMake(this->getPosition().x - size.width*0.5, this->getPosition().y - size.height*0.5));
-	glScissor(location.x, location.y, size.width, size.height);
-	CCNode::visit();
-	glDisable(GL_SCISSOR_TEST);
-}
+//void Counter::visit()
+//{
+//	glEnable(GL_SCISSOR_TEST);
+//	CCNode* presenter = _presenters->getChildByTag(_digit);
+//	CCSize size = presenter->getContentSize();
+//	CCPoint location = this->getParent()->convertToWorldSpace(CCPointMake(this->getPosition().x - size.width*0.5, this->getPosition().y - size.height*0.5));
+//	glScissor(location.x, location.y, size.width, size.height);
+//	CCNode::visit();
+//	glDisable(GL_SCISSOR_TEST);
+//}
