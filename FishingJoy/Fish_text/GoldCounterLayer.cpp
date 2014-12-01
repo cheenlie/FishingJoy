@@ -4,7 +4,7 @@ USING_NS_CC;
 
 GoldCounterLayer* GoldCounterLayer::create(int number)
 {
-	GoldCounterLayer* goldCounterLayer = new GoldCounterLayer(); //Ä¬ÈÏµÄ¹¹Ôìº¯Êý
+	GoldCounterLayer* goldCounterLayer = new GoldCounterLayer(); //é»˜è®¤çš„æž„é€ å‡½æ•°
 	goldCounterLayer->init(number);
 	goldCounterLayer->autorelease();
 	return goldCounterLayer;
@@ -12,7 +12,7 @@ GoldCounterLayer* GoldCounterLayer::create(int number)
 bool GoldCounterLayer::init(int number)
 {
 	int fontSize = 16;
-	CCLabelTTF* goldLabel = CCLabelTTF::create("½ð±Ò:", "Thonburi", fontSize);
+	CCLabelTTF* goldLabel = CCLabelTTF::create("é‡‘å¸:", "Thonburi", fontSize);
 	this->addChild(goldLabel);
 	CCSize goldLabelSize = goldLabel->getContentSize();
 

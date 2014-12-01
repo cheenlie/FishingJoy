@@ -25,10 +25,10 @@
     <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="TouchLayer.cpp" />
     <ClCompile Include="PersonalAudioEngine.cpp" />
-    <ClCompile Include="GoldCounterLayer.cpp" />
     <ClCompile Include="Counter.cpp" />
     <ClCompile Include="Classes\AppDelegate.cpp" />
     <ClCompile Include="ScheduleCountDown.cpp" />
+    <ClCompile Include="GoldCounterLayer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="win32\main.h">
