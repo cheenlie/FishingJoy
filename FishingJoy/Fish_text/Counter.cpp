@@ -1,5 +1,4 @@
 #include "Counter.h"
-#include "GL\glew.h"
 USING_NS_CC;
 
 enum{
@@ -61,6 +60,8 @@ void Counter::animation(int digit)
 
 }
 
+
+//base on glew32.lib and opengl32.lib
 void Counter::visit()
 {
 	glEnable(GL_SCISSOR_TEST);

@@ -35,6 +35,7 @@ public:
 	void cannonAimAt(cocos2d::CCPoint target);
 	void cannonShootTo(cocos2d::CCPoint target);
 
+	void scheduleTimeUp();
 protected:
 
 

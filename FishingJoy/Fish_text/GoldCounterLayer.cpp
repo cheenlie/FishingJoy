@@ -11,28 +11,28 @@ GoldCounterLayer* GoldCounterLayer::create(int number)
 }
 bool GoldCounterLayer::init(int number)
 {
-	int fontSize = 26;
-	CCLabelTTF* goldLabel = CCLabelTTF::create("½ğ±Ò:","Thonburi", fontSize);
+	int fontSize = 16;
+	CCLabelTTF* goldLabel = CCLabelTTF::create("½ğ±Ò:", "Thonburi", fontSize);
 	this->addChild(goldLabel);
 	CCSize goldLabelSize = goldLabel->getContentSize();
 
-	for (int i = 0; i <6 ; i++){  //??question, I don't know why it is 6
+	for (int i = 0; i < 6; i++){  
 		int count = 10;   
 		CCArray* presenters = CCArray::createWithCapacity(count);
 		for (int j = 0; j < count; j++){
-			CCLabelTTF* label = CCLabelTTF::create(CCString::createWithFormat("%d",j)->getCString(),"Thonburi",fontSize);
+			CCLabelTTF* label = CCLabelTTF::create(CCString::createWithFormat("%d",j)->getCString(), "Thonburi", fontSize);
 			presenters->addObject(label);
 		}
 		Counter* counter = Counter::create(presenters);
-		counter->setPosition(CCPointMake(goldLabelSize.width*0.8+fontSize*0.75*i,0));
+		counter->setPosition(CCPointMake(goldLabelSize.width*0.8+fontSize*0.75*i, 0));
 		this->addChild(counter, 0, i);
 	}
 	this->setNumber(number);
 	return true;
 }
-void GoldCounterLayer::setNumber(int number,int ceiling)
+void GoldCounterLayer::setNumber(int number, int ceiling)
 {
-	number = MIN(number, ceiling);
+	number = MIN(ceiling, number);
 	number = MAX(number, 0);  //get positive number;
 	_number = number;
 	for (int i = 0; i < 6;i++)  //??question, why it cycle 6 times?  A: six Counter.

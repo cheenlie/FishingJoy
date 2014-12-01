@@ -242,3 +242,7 @@ void GameScene::alterGold(int delta)
 
 }
 
+void GameScene::scheduleTimeUp()
+{
+	this->alterGold(STATIC_DATA_INT("recovery_gold"));
+}
