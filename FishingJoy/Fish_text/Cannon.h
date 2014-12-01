@@ -3,6 +3,8 @@
 #include "cocos2d.h"
 #include "Bullet.h"
 
+
+//未被初始化的枚举值的值默认将比其前面的枚举值大1
 typedef enum{
 	k_Cannon_Type_1 = 0,
 	k_Cannon_Type_2,

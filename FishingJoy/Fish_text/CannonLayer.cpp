@@ -9,18 +9,18 @@ bool CannonLayer::init()
 		CCSize winSize = CCDirector::sharedDirector()->getWinSize();
 		_weapon = Weapon::create();
 		_weapon->setPosition(winSize.width*0.5, _weapon->getCannon()->getCurCannonSprite()->getContentSize().height*0.26);
-		//°Ñ´óÅÚ·Åµ½²ãÖÐ
+		//æŠŠå¤§ç‚®æ”¾åˆ°å±‚ä¸­
 		this->addChild(_weapon);
 
 		_subItem = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName(STATIC_DATA_STRING("button_sub")), CCSprite::createWithSpriteFrameName(STATIC_DATA_STRING("button_sub")), this, menu_selector(CannonLayer::switchCannon));
 		_addItem = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName(STATIC_DATA_STRING("button_add")), CCSprite::createWithSpriteFrameName(STATIC_DATA_STRING("button_add")), this, menu_selector(CannonLayer::switchCannon));
 
-		//´´½¨Ò»¸ö²Ëµ¥²ã£¬°ÑÕâÁ½¸ö°´Å¥·Å½øÈ¥
+		//åˆ›å»ºä¸€ä¸ªèœå•å±‚ï¼ŒæŠŠè¿™ä¸¤ä¸ªæŒ‰é’®æ”¾è¿›åŽ»
 		CCMenu* menu = CCMenu::create(_subItem, _addItem, NULL);
-		//ÓÃÌî³ä²ÄÁÏÌî³äÏîµÄË®Æ½Î»ÖÃ
-		//¸ã²»¶®ÎªÉ¶ÒªÔÚ´óÅÚµÄ³¤¶ÈºóÃæ¼ÓÊ®£¿£¿£¿
+		//ç”¨å¡«å……ææ–™å¡«å……é¡¹çš„æ°´å¹³ä½ç½®
+		//æžä¸æ‡‚ä¸ºå•¥è¦åœ¨å¤§ç‚®çš„é•¿åº¦åŽé¢åŠ åï¼Ÿï¼Ÿï¼Ÿ
 		menu->alignItemsHorizontallyWithPadding(_weapon->getCannon()->getCurCannonSprite()->getContentSize().width + 10);
-		//È·¶¨²Ëµ¥µÄÎ»ÖÃ£¬ÔÚ´°¿ÚXÖáÕýÖÐ¼ä£¬YÖáÎªÔÚ¡°-¡±ºÅ°´Å¥µÄÖÐ²¿Î»ÖÃ
+		//ç¡®å®šèœå•çš„ä½ç½®ï¼Œåœ¨çª—å£Xè½´æ­£ä¸­é—´ï¼ŒYè½´ä¸ºåœ¨â€œ-â€å·æŒ‰é’®çš„ä¸­éƒ¨ä½ç½®
 		menu->setPosition(CCPointMake(winSize.width*0.5, _subItem->getContentSize().height*0.5));
 		this->addChild(menu);
 		return true;
@@ -40,7 +40,7 @@ void CannonLayer::switchCannon(CCObject* sender)
 	{
 		type = (CannonType)((int)type - 1);
 	}
-	//¸Ä±ä´óÅÚÀàÐÍºó£¬ÉèÖÃ´óÅÚÀàÐÍ
+	//æ”¹å˜å¤§ç‚®ç±»åž‹åŽï¼Œè®¾ç½®å¤§ç‚®ç±»åž‹
 	_weapon->getCannon()->setType(type);
 }
 

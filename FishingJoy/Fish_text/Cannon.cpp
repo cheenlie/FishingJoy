@@ -9,10 +9,10 @@ void Cannon::setType(CannonType type)
 			type = k_Cannon_Type_1;
 		}
 		else if(type<k_Cannon_Type_1){
-			type = (CannonType)(k_Cannon_Type_1 - 1); //??²»ÖªµÀ¡°-1¡±ÒâÍ¼ÊÇÉ¶
+			type = (CannonType)(k_Cannon_Type_Count - 1); //??ä¸çŸ¥é“â€œ-1â€æ„å›¾æ˜¯å•¥; ç­”ï¼šå¾ªç¯å‘—
 		}
 	
-		//³õ´Îµ÷ÓÃsetTypeº¯ÊıÊ±£¬removeChildByTagËùĞèÒªÒÆ³ıµÄ½Úµã²»´æÔÚ£¬µ«²¢²»µ£ĞÄ»áÄÚ´æĞ¹Â¶£¬ÒòÎªÒıÇæµ×²¿ÒÑ¾­´¦ÀíºÃÁË
+		//åˆæ¬¡è°ƒç”¨setTypeå‡½æ•°æ—¶ï¼ŒremoveChildByTagæ‰€éœ€è¦ç§»é™¤çš„èŠ‚ç‚¹ä¸å­˜åœ¨ï¼Œä½†å¹¶ä¸æ‹…å¿ƒä¼šå†…å­˜æ³„éœ²ï¼Œå› ä¸ºå¼•æ“åº•éƒ¨å·²ç»å¤„ç†å¥½äº†
 		this->removeChildByTag(_type, false);
 		CCSprite* newCannonSprite = (CCSprite*)_cannonSprites->objectAtIndex(type);
 		this->addChild(newCannonSprite, 0, type);
@@ -31,17 +31,17 @@ Cannon* Cannon::create(CannonType type)
 
 bool Cannon::init(CannonType type)
 {
-	//´´½¨´óÅÚÊıÁ¿
+	//åˆ›å»ºå¤§ç‚®æ•°é‡
 	_cannonSprites = CCArray::createWithCapacity(k_Cannon_Type_Count);
 	_cannonSprites->retain();
 
-	//È·¶¨´óÅÚµÄÎ»ÖÃ£¬anchorÃªµã
+	//ç¡®å®šå¤§ç‚®çš„ä½ç½®ï¼Œanchoré”šç‚¹
 	CCPoint anchorPoints = CCPointMake(0.5,0.26);
 	for (int i = k_Cannon_Type_1; i < k_Cannon_Type_Count; i++){
-		//´´½¨Ò»¸ö´óÅÚ
+		//åˆ›å»ºä¸€ä¸ªå¤§ç‚®
 		CCString* fileName = CCString::createWithFormat(STATIC_DATA_STRING("cannon_level_name_format"), i + 1);
 		CCSprite* cannonSprite=CCSprite::createWithSpriteFrameName(fileName->getCString());
-		cannonSprite->setAnchorPoint(anchorPoints);//°Ñ´óÅÚ·Åµ½Õâ¸öÎ»ÖÃ
+		cannonSprite->setAnchorPoint(anchorPoints);//æŠŠå¤§ç‚®æ”¾åˆ°è¿™ä¸ªä½ç½®
 		_cannonSprites->addObject(cannonSprite);
 	}
 	this->setType(type);
@@ -57,24 +57,24 @@ CannonType Cannon::getType()
 {
 	return _type;
 }
-//¹¹Ôìº¯Êı²»ĞèÒª·µ»ØÖµ£¬ËùÒÔÖ»ĞèÈçÏÂ¼´¿É
+//æ„é€ å‡½æ•°ä¸éœ€è¦è¿”å›å€¼ï¼Œæ‰€ä»¥åªéœ€å¦‚ä¸‹å³å¯
 Cannon::Cannon()
 {
 	_type = (CannonType)k_Cannon_Type_Invalid;
 }
-//Îö¹¹º¯Êı
+//ææ„å‡½æ•°
 Cannon::~Cannon()
 {
-	CC_SAFE_RELEASE(_cannonSprites);//ÊÍ·Å¡°_cannonSprites¡±Ë½ÓĞ±äÁ¿Êı×é
+	CC_SAFE_RELEASE(_cannonSprites);//é‡Šæ”¾â€œ_cannonSpritesâ€ç§æœ‰å˜é‡æ•°ç»„
 }
 
-//Ãé×¼º¯Êı
+//ç„å‡†å‡½æ•°
 void Cannon::aimAt(CCPoint target)
 {
-	//convertToWorldSpace()½«½Úµã×ø±ê×ª»»µ½ÆÁÄ»×ø±êÏµÖĞ
+	//convertToWorldSpace()å°†èŠ‚ç‚¹åæ ‡è½¬æ¢åˆ°å±å¹•åæ ‡ç³»ä¸­
 	CCPoint location = this->getParent()->convertToWorldSpace(this->getPosition());
-	//ccpAngleSigned£¨a,b£©×ø±êÔËËãº¯Êı£¬²ÎÊıa£¬b·Ö±ğÊÇ¼Ğ½ÇÁ½±ßµÄ¶Ïµã£¬¶øÕâÁ½Ìõ±ßµÄ½¹µãÄ¬ÈÏÊÇCCPointZero,¼È×ø±êÔ­µã
+	//ccpAngleSignedï¼ˆa,bï¼‰åæ ‡è¿ç®—å‡½æ•°ï¼Œå‚æ•°aï¼Œbåˆ†åˆ«æ˜¯å¤¹è§’ä¸¤è¾¹çš„æ–­ç‚¹ï¼Œè€Œè¿™ä¸¤æ¡è¾¹çš„ç„¦ç‚¹é»˜è®¤æ˜¯CCPointZero,æ—¢åæ ‡åŸç‚¹
 	float angle = ccpAngleSigned(ccpSub(target,location),CCPointMake(0,1));
-	//rotaion n. Ğı×ª£»Ñ­»·£¬ÂÖÁ÷
+	//rotaion n. æ—‹è½¬ï¼›å¾ªç¯ï¼Œè½®æµ
 	this->setRotation(CC_RADIANS_TO_DEGREES(angle));
 }
