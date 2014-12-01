@@ -4,14 +4,8 @@
     <Filter Include="win32">
       <UniqueIdentifier>{17c9c1e8-9f62-4de1-9f8c-d301f934e994}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes">
-      <UniqueIdentifier>{e1a876eb-fd9b-4d58-9dfb-e87c82f47598}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Classes\AppDelegate.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
     <ClCompile Include="win32\main.cpp">
       <Filter>win32</Filter>
     </ClCompile>
@@ -33,11 +27,9 @@
     <ClCompile Include="PersonalAudioEngine.cpp" />
     <ClCompile Include="GoldCounterLayer.cpp" />
     <ClCompile Include="Counter.cpp" />
+    <ClCompile Include="Classes\AppDelegate.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Classes\AppDelegate.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
     <ClInclude Include="win32\main.h">
       <Filter>win32</Filter>
     </ClInclude>
@@ -58,5 +50,6 @@
     <ClInclude Include="PersonalAudioEngine.h" />
     <ClInclude Include="GoldCounterLayer.h" />
     <ClInclude Include="Counter.h" />
+    <ClInclude Include="Classes\AppDelegate.h" />
   </ItemGroup>
 </Project>

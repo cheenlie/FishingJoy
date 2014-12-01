@@ -153,11 +153,6 @@ void GameScene::cannonShootTo(CCPoint target)
 	}
 	
 }
-void GameScene::alterGold(int delta)
-{
-	FishingJoyData::shareFishingJoyData()->alterGold(delta);
-	_panelLayer->getGoldCounterLayer()->setNumber(FishingJoyData::shareFishingJoyData()->getGold());
-}
 
 void GameScene::update(float delat) //why program alway call this function? ?question
 {
@@ -232,7 +227,18 @@ void GameScene::fishWillBeCaught(Fish* fish)
 	if (CCRANDOM_0_1() < percentage)
 	{
 		fish->beCaught();
+
+		//string-key modle, the same as HashTable
+		int reward = STATIC_DATA_INT(CCString::createWithFormat(STATIC_DATA_STRING("reward_format"),fishType)->getCString());
+		this->alterGold(reward);
 	}
+
+}
+
+void GameScene::alterGold(int delta)
+{
+	FishingJoyData::shareFishingJoyData()->alterGold(delta);
+	_panelLayer->getGoldCounterLayer()->setNumber(FishingJoyData::shareFishingJoyData()->getGold());
 
 }
 
