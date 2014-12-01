@@ -1,7 +1,7 @@
 #ifndef __FishingJoy__Counter__
 #define __FishingJoy__Counter__
 #include "cocos2d.h"
-
+USING_NS_CC;
 class Counter : public cocos2d::CCNode
 {
 public:
@@ -16,7 +16,7 @@ public:
 
 	CC_PROPERTY(int, _digit, Digit);
 protected:
-	//void visit();
+	void visit();
 	//存放0-9数字对应的节点
 	cocos2d::CCNode* _presenters;
 
