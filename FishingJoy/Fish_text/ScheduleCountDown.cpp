@@ -1,4 +1,6 @@
 #include "ScheduleCountDown.h"
+#include "PanelLayer.h"
+#include "GameScene.h"
 USING_NS_CC;
 
 ScheduleCountDown* ScheduleCountDown::create(ScheduleCounterDelegate* target, int perimeter, bool loop)
@@ -26,6 +28,7 @@ void ScheduleCountDown::schedulePerSecond(float delta)
 {
 	_curTime--;
 	if (_curTime <= 0){
+
 		if (this->getLoop()){
 			_curTime = _maxTime;
 		}

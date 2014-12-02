@@ -15,7 +15,7 @@ bool PanelLayer::init()
 
 		//??question, why it import "this"?
 		ScheduleCountDown* scheduleCountDown = ScheduleCountDown::create(this); 
-		_scheduleLabel = CCLabelTTF::create("60", "Thonburi", 16);
+		_scheduleLabel = CCLabelTTF::create("10", "Thonburi", 16);
 		_scheduleLabel->addChild(scheduleCountDown);
 		this->addChild(_scheduleLabel);
 

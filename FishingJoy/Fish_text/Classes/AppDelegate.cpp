@@ -7,7 +7,7 @@
 //
 
 #include "AppDelegate.h"
-
+#include "../StartScene.h"  //项目中文件位置和实际项目文件所在文件夹位置不一样
 #include "cocos2d.h"
 #include "../FishingJoyData.h"
 #include "../GameScene.h"
@@ -39,11 +39,12 @@ bool AppDelegate::applicationDidFinishLaunching()
 	pDirector->setAnimationInterval(1.0 / 60);
 
 	// create a scene. it's an autorelease object
-	CCScene *pScene = GameScene::create();
+	//CCScene *pScene = GameScene::create();
+	//加了startscene后就换一种启动方式
+	CCScene* pScene = StartLayer::scene();
 
-	// run
+	//run
 	pDirector->runWithScene(pScene);
-
 	return true;
 }
 

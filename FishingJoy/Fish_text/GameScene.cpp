@@ -9,29 +9,29 @@ USING_NS_CC;
 
 
 //todo 预载入资源，实现StartScene后将其删除
-void GameScene::preloadResources()
-{
-	CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("fishingjoy_resource.plist");
-
-	int frameCount = STATIC_DATA_INT("fish_frame_count");
-	for (int type = k_Fish_Type_Red; type < k_Fish_Type_Count; type++){
-		CCArray* spriteFrames = CCArray::createWithCapacity(frameCount);
-		for (int i = 0; i < frameCount; i++){
-			CCString* filename = CCString::createWithFormat(STATIC_DATA_STRING("fish_frame_name_format"), type, i);
-			CCSpriteFrame* spriteFrame = CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(filename->getCString());
-			spriteFrames->addObject(spriteFrame);
-		}
-
-		//CCAnimation只用于存放动画，真正能让动画播放起来的是动作类CCAnimate，CCAnimate只能由CCSprite及其子类播放
-		CCAnimation* fishAnimation = CCAnimation::createWithSpriteFrames(spriteFrames);
-		fishAnimation->setDelayPerUnit(STATIC_DATA_FLOAT("fish_frame_delay"));
-		CCString* animationName = CCString::createWithFormat(STATIC_DATA_STRING("fish_animation"), type);
-		CCAnimationCache::sharedAnimationCache()->addAnimation(fishAnimation, animationName->getCString());
-	}
-
-	//FishingJoyData::shareFishingJoyData(); //upload data
-	//PersonalAudioEngine::sharedEngine();  //backgroudMusic
-}
+//void GameScene::preloadResources()
+//{
+//	CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("fishingjoy_resource.plist");
+//
+//	int frameCount = STATIC_DATA_INT("fish_frame_count");
+//	for (int type = k_Fish_Type_Red; type < k_Fish_Type_Count; type++){
+//		CCArray* spriteFrames = CCArray::createWithCapacity(frameCount);
+//		for (int i = 0; i < frameCount; i++){
+//			CCString* filename = CCString::createWithFormat(STATIC_DATA_STRING("fish_frame_name_format"), type, i);
+//			CCSpriteFrame* spriteFrame = CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(filename->getCString());
+//			spriteFrames->addObject(spriteFrame);
+//		}
+//
+//		//CCAnimation只用于存放动画，真正能让动画播放起来的是动作类CCAnimate，CCAnimate只能由CCSprite及其子类播放
+//		CCAnimation* fishAnimation = CCAnimation::createWithSpriteFrames(spriteFrames);
+//		fishAnimation->setDelayPerUnit(STATIC_DATA_FLOAT("fish_frame_delay"));
+//		CCString* animationName = CCString::createWithFormat(STATIC_DATA_STRING("fish_animation"), type);
+//		CCAnimationCache::sharedAnimationCache()->addAnimation(fishAnimation, animationName->getCString());
+//	}
+//
+//	//FishingJoyData::shareFishingJoyData(); //upload data
+//	//PersonalAudioEngine::sharedEngine();  //backgroudMusic
+//}
 
 void GameScene::onEnterTransitionDidFinish()
 {
@@ -40,7 +40,7 @@ void GameScene::onEnterTransitionDidFinish()
 }
 bool GameScene::init()
 {
-	preloadResources();
+//	preloadResources();
 	if (CCScene::init())
 	{
 		/*
@@ -239,7 +239,6 @@ void GameScene::alterGold(int delta)
 {
 	FishingJoyData::shareFishingJoyData()->alterGold(delta);
 	_panelLayer->getGoldCounterLayer()->setNumber(FishingJoyData::shareFishingJoyData()->getGold());
-
 }
 
 void GameScene::scheduleTimeUp()

@@ -29,6 +29,8 @@
     <ClCompile Include="Classes\AppDelegate.cpp" />
     <ClCompile Include="ScheduleCountDown.cpp" />
     <ClCompile Include="GoldCounterLayer.cpp" />
+    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="win32\main.h">
@@ -54,5 +56,8 @@
     <ClInclude Include="Classes\AppDelegate.h" />
     <ClInclude Include="ScheduleCountDown.h" />
     <ClInclude Include="ScheduleCountProtocol.h" />
+    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="ProgressProtocol.h" />
   </ItemGroup>
 </Project>
