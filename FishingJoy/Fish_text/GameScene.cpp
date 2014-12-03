@@ -8,7 +8,7 @@
 USING_NS_CC;
 
 
-//todo Ô¤ÔØÈë×ÊÔ´£¬ÊµÏÖStartSceneºó½«ÆäÉ¾³ý
+//todo é¢„è½½å…¥èµ„æºï¼Œå®žçŽ°StartSceneåŽå°†å…¶åˆ é™¤
 //void GameScene::preloadResources()
 //{
 //	CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("fishingjoy_resource.plist");
@@ -22,7 +22,7 @@ USING_NS_CC;
 //			spriteFrames->addObject(spriteFrame);
 //		}
 //
-//		//CCAnimationÖ»ÓÃÓÚ´æ·Å¶¯»­£¬ÕæÕýÄÜÈÃ¶¯»­²¥·ÅÆðÀ´µÄÊÇ¶¯×÷ÀàCCAnimate£¬CCAnimateÖ»ÄÜÓÉCCSprite¼°Æä×ÓÀà²¥·Å
+//		//CCAnimationåªç”¨äºŽå­˜æ”¾åŠ¨ç”»ï¼ŒçœŸæ­£èƒ½è®©åŠ¨ç”»æ’­æ”¾èµ·æ¥çš„æ˜¯åŠ¨ä½œç±»CCAnimateï¼ŒCCAnimateåªèƒ½ç”±CCSpriteåŠå…¶å­ç±»æ’­æ”¾
 //		CCAnimation* fishAnimation = CCAnimation::createWithSpriteFrames(spriteFrames);
 //		fishAnimation->setDelayPerUnit(STATIC_DATA_FLOAT("fish_frame_delay"));
 //		CCString* animationName = CCString::createWithFormat(STATIC_DATA_STRING("fish_animation"), type);
@@ -44,7 +44,7 @@ bool GameScene::init()
 	if (CCScene::init())
 	{
 		/*
-		¶ÔÖ®Ç°µÄGameScene³¡¾°µÄ²ã´Î·ÖÀëÍ¼,ÓÃÕâ¸ö·½·¨´´½¨ÏÂÃæÎå¸öÀà£¬µ«ÊÇ¶¼ÊÇ¼Ì³Ð×ÔCCLayerÀà
+		å¯¹ä¹‹å‰çš„GameSceneåœºæ™¯çš„å±‚æ¬¡åˆ†ç¦»å›¾,ç”¨è¿™ä¸ªæ–¹æ³•åˆ›å»ºä¸‹é¢äº”ä¸ªç±»ï¼Œä½†æ˜¯éƒ½æ˜¯ç»§æ‰¿è‡ªCCLayerç±»
 		*/
 		_backgroundLayer = BackgroundLayer::create();
         this->addChild(_backgroundLayer);
@@ -65,7 +65,7 @@ bool GameScene::init()
 		//set sound and music data that from plist file
 		_menuLayer->setSoundAndMusicVolume(FishingJoyData::shareFishingJoyData()->getSoundVolume(),FishingJoyData::shareFishingJoyData()->getMusicVolume());
 
-		this->scheduleUpdate();//Ã¿Ò»¸öframe¶¼»áµ÷ÓÃÕâ¸ö·½·¨
+		this->scheduleUpdate();//æ¯ä¸€ä¸ªframeéƒ½ä¼šè°ƒç”¨è¿™ä¸ªæ–¹æ³•
 
 		return true;
 	}
@@ -107,14 +107,14 @@ GameScene::~GameScene()
 	CC_SAFE_RELEASE(_menuLayer);
 }
 
-//ÔÝÍ£Ö÷³¡¾°ÖÐµÄ¶¯×÷ºÍ¼ÆÊ±Æ÷
+//æš‚åœä¸»åœºæ™¯ä¸­çš„åŠ¨ä½œå’Œè®¡æ—¶å™¨
 void GameScene::operateAllSchedulerAndActions(cocos2d::CCNode* node, OperateFlag flag)
 {
 	if (node->isRunning()){
 		switch (flag){
 		case k_Operate_Pause:
 
-			//µÝ¹é±éÀúäÖÈ¾Ê÷ÖÐµÄËùÓÐ½Úµã
+			//é€’å½’éåŽ†æ¸²æŸ“æ ‘ä¸­çš„æ‰€æœ‰èŠ‚ç‚¹
 			node->pauseSchedulerAndActions(); //
 			break;
 		case k_Operate_Resume:
@@ -139,7 +139,7 @@ void GameScene::operateAllSchedulerAndActions(cocos2d::CCNode* node, OperateFlag
 void GameScene::cannonAimAt(CCPoint target)
 {
 	_cannonLayer->aimAt(target);
-	//_cannonLayer()->aimAt(target);//»áµ¯³ö´íÎó£ºÃ÷ÏÔ µ÷ÓÃµÄ ±í´ïÊ½µÄÀ¨ºÅ ±ØÐë¾ßÓÐ£¨Ö¸Õë£©º¯ÊýÀàÐÍ
+	//_cannonLayer()->aimAt(target);//ä¼šå¼¹å‡ºé”™è¯¯ï¼šæ˜Žæ˜¾ è°ƒç”¨çš„ è¡¨è¾¾å¼çš„æ‹¬å· å¿…é¡»å…·æœ‰ï¼ˆæŒ‡é’ˆï¼‰å‡½æ•°ç±»åž‹
 }
 
 void GameScene::cannonShootTo(CCPoint target)
@@ -179,7 +179,7 @@ bool GameScene::checkOutCollisionBetweenFishesAndBullet()
 	CCPoint bulletCollision = weapon->getCollisionPoint();
 
 	CCArray* fishes = _fishLayer->getFishes();  //get fishes from Arrary in the fishLayer
-	CCObject* iterator;  //create a iterator type variable[´´½¨Ò»¸öµü´úÆ÷±äÁ¿]
+	CCObject* iterator;  //create a iterator type variable[åˆ›å»ºä¸€ä¸ªè¿­ä»£å™¨å˜é‡]
 	CCARRAY_FOREACH(fishes,iterator){   //check every fish
 		Fish* fish = (Fish*)iterator;
 		if (fish->isRunning()){   //judge whether fish is in screen.

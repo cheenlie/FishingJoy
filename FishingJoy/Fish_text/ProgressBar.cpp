@@ -23,7 +23,7 @@ void ProgressBar::progressBy(float delta)
 		isFinished = true;
 	}
 	this->stopActionByTag(k_Progress_Action);
-	//创建一个容量为2的数组
+	//创建一个容量为2的数组,存放两个数
 	CCArray* actions = CCArray::createWithCapacity(2);
 
 	float duration = delta / this->getSpeed();
@@ -32,6 +32,7 @@ void ProgressBar::progressBy(float delta)
 	actions->addObject(to);
 	if (isFinished)
 	{
+		//只有完成了才会调用回调函数loadingFinished
 		CCCallFunc* callFunc = CCCallFunc::create(this, callfunc_selector(ProgressBar::loadingFinished));
 		actions->addObject(callFunc);
 	}
